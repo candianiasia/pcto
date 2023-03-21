@@ -6,8 +6,18 @@ int main()
    printf("inserisci il tuo anno di nascita");
    scanf("%d", &x);
    printf("x: %d\n", x);  
-   if (x%4 == 0  && x%100 != 0 || x%400 == 0 )
-   {printf("è un anno bisestile");}
-   else 
-   {printf("non è un anno bisestile");}
+   if (x==1969)
+   { 
+    printf("sei nato lo stesso anno dello sbarco sulla luna");
+   }
+   else if ( x> 1969)
+    {  
+        x = x - 1969;
+       printf(" sei nato %d\n anni dopo lo sbarco sulla luna", x);
+    }
+    else 
+    {  
+        x = 1969 - x;
+        printf("sei nato %d\n anni prima lo sbarco sulla luna", x);
+    }
 }
