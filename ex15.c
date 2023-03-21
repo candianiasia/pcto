@@ -3,7 +3,7 @@
 int main()
 {
      int x = 0;
-     int somma;
+     int somma = 0;
      printf("x: %d\n", x); 
      while(x<100) 
      {
