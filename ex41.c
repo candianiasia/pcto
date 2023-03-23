@@ -25,6 +25,14 @@ int main()
     {
         printf("il punto si trova nell'origine ");
     }
+    else if(x== 0 && y!=0) 
+    {
+        printf("sei sull'asse delle y ");
+    }
+    else if(y==0 && x!=0)
+    {
+        printf("sei sull'asse delle x ");
+    }
     else 
     {
         printf("sei nel quarto quadrante ");
